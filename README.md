@@ -96,6 +96,8 @@ The dataset contains Spotify tracks across **125 different genres**, with each t
 - 🔊 **Loudness** correlates moderately with Energy, reflecting modern music production trends
 - ⭐ Popular songs tend to cluster around **mid to high energy and danceability** values
 - 🎤 Top artists generally maintain consistent popularity across their tracks
+- **Note:** Correlation does not imply causation; observed relationships reflect patterns in the dataset, not direct influence.
+
 ## 🚀 Conclusion
 
 This project demonstrates the application of **Exploratory Data Analysis (EDA)** techniques to real-world music data. It strengthened my understanding of:
@@ -105,3 +107,43 @@ This project demonstrates the application of **Exploratory Data Analysis (EDA)**
 - Data visualization using Python  
 
 This analysis forms a strong foundation for future projects involving **machine learning**, **recommendation systems**, and **predictive modeling**.
+
+## 📊 Sample Visualizations & Insights
+
+### 🔝 Top 10 Most Popular Artists
+This bar chart shows the artists with the highest **average popularity scores** across their tracks.
+
+<img width="1233" height="747" alt="image" src="https://github.com/user-attachments/assets/2bc8f0b9-822e-49c2-a9d3-de80a66c62f9" />
+**Note:** Artists with a small number of tracks may show inflated average popularity due to limited data.
+
+---
+
+### 📈 Distribution of Song Popularity
+The popularity distribution indicates that most songs fall within the **low to mid popularity range**, with fewer highly popular tracks.
+<img width="985" height="616" alt="image" src="https://github.com/user-attachments/assets/8e6ad84b-8c05-4932-9dbd-88d3f75b7c95" />
+
+
+---
+
+### 🔥 Correlation Between Audio Features
+This heatmap highlights relationships among numerical audio features.
+- Strong positive correlation between **energy and loudness**
+- Negative correlation between **energy and acousticness**
+<img width="1447" height="989" alt="image" src="https://github.com/user-attachments/assets/87785c7d-8136-4d27-a58b-06d5caed8217" />
+
+
+---
+
+### 💃 Danceability vs Energy
+This scatter plot shows how energetic songs often tend to be more danceable, especially in modern music.
+
+<img width="983" height="616" alt="image" src="https://github.com/user-attachments/assets/8a4f0c80-9822-4d48-8915-6efccb5cd079" />
+
+
+---
+
+### 🔊 Loudness vs Popularity
+Louder tracks generally cluster at **higher popularity levels**, indicating production trends in popular music.
+
+<img width="979" height="609" alt="image" src="https://github.com/user-attachments/assets/8ac27344-d2b0-4d1a-b232-3f1c775107de" />
+
