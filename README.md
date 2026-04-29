@@ -139,7 +139,6 @@ This scatter plot shows how energetic songs often tend to be more danceable, esp
 
 <img width="983" height="616" alt="image" src="https://github.com/user-attachments/assets/8a4f0c80-9822-4d48-8915-6efccb5cd079" />
 
-
 ---
 
 ### 🔊 Loudness vs Popularity
